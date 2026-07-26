@@ -1,121 +1,74 @@
-# VSM Flow Studio v2026 - Value Stream Mapping simulator 2026
+# 📊 vsm-flow-studio-2026 - Streamline your lean process mapping effortlessly
 
-> **VSM Flow Studio is a browser-based value stream mapping simulator for Lean Six Sigma work, pairing live KPI computation, drag-and-drop process design, and local HTML5 storage in version 2026.**
+[![](https://img.shields.io/badge/Download-VSM_Flow_Studio-blue.svg)](https://github.com/unreceptive-wildbillhickock799/vsm-flow-studio-2026)
 
-[![Platform](https://img.shields.io/badge/Platform-Web%20browser-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/caleb-hughesyftv6159/vsm-flow-studio-2026?style=flat-square)](https://github.com/caleb-hughesyftv6159/vsm-flow-studio-2026)
+## 📌 About this project
 
----
+VSM Flow Studio 2026 serves as a visual tool for Lean Six Sigma practitioners. You use this software to map business processes and track efficiency in real time. The software runs inside your web browser but saves data directly to your computer. This setup keeps your process maps private and accessible without a constant internet connection. You use a drag-and-drop interface to build maps. The system calculates Key Performance Indicators as you adjust your process flow.
 
-<p align="center">
-  <a href="https://caleb-hughesyftv6159.github.io/vsm-flow-studio-2026/">
-    <img src="https://img.shields.io/badge/Download-VSM%20Flow%20Studio%20Latest-brightgreen?style=for-the-badge" alt="Download VSM Flow Studio">
-  </a>
-</p>
+## ⚙️ System requirements
 
-> **[Direct Download - VSM Flow Studio v2026](https://caleb-hughesyftv6159.github.io/vsm-flow-studio-2026/)**
+This tool runs on any modern version of Windows. You need one of the following web browsers installed on your computer:
 
----
+* Google Chrome
+* Microsoft Edge
+* Mozilla Firefox
 
-[Download Latest Build](https://caleb-hughesyftv6159.github.io/vsm-flow-studio-2026/)
+The application uses standard web technologies. You do not need to install extra plugins, runtime environments, or heavy software. If you can open a website, you can run this simulator.
 
----
+## 📥 Getting the software
 
-## Overview
+You obtain the files directly from the repository page. 
 
-VSM Flow Studio lets you build and study value stream maps straight from a web browser. It is aimed at teams and practitioners who want to model process flow, watch lean metrics update in real time, and test improvement ideas without setting up a backend or installing a desktop app.
+1. Visit [https://github.com/unreceptive-wildbillhickock799/vsm-flow-studio-2026](https://github.com/unreceptive-wildbillhickock799/vsm-flow-studio-2026).
+2. Look for the green button labeled Code.
+3. Select Download ZIP from the menu.
+4. Save the folder to your desktop or downloads directory.
 
-It fits naturally into Lean Six Sigma work where fast iteration is useful. Because it relies on local HTML5 behavior and browser-based persistence, it works well for hands-on mapping sessions, quick analysis, and easy sharing through exported files or print-ready output.
+## 🚀 Running the application
 
----
+After you download the file, follow these steps to start your first project:
 
-## Key Capabilities
+1. Right-click the folder you downloaded.
+2. Choose Extract All to create a regular folder from the compressed ZIP file.
+3. Open the new folder.
+4. Locate the file named index.html.
+5. Double-click the file to open it in your default web browser.
 
-- Real-time Lean Six Sigma KPI calculations
-- Value stream mapping simulation for process analysis
-- Drag-and-drop canvas interface for building maps
-- Local persistence through browser localStorage
-- JSON export for saving and moving project data
-- Print and PDF export for offline review
-- Runs entirely in the browser with no server required
-- Built with HTML5 and JavaScript for straightforward deployment
+The browser displays the canvas where you draw your workflow. You now see the main interface.
 
----
+## 🛠️ Using the mapping tool
 
-## Installation
+The interface uses a simple drag-and-drop system. The sidebar on the left contains various process icons. 
 
-You can clone the repository or download the source, then open it in a modern web browser.
+### Drawing your flow
+Click an icon in the sidebar and drag it onto the white map area. Connect the icons by clicking the small anchor points on the edges. The lines represent the flow of work.
 
-1. Download or clone the repository:
-   - `git clone https://github.com/caleb-hughesyftv6159/vsm-flow-studio-2026.git
-2. Open the main HTML entry point in your browser.
-3. If you prefer local hosting, serve the folder with any static file server and visit the page from that address.
+### Updating data
+Click any box on your map to open the data editor. Enter your process times, wait times, and inventory levels in the provided fields. The simulator updates the mathematical calculations instantly. You see your lead time and process cycle efficiency displayed at the top of the screen.
 
-Example launch approach:
-- Open `index.html` directly for quick testing, or
-- Use a local web server for a smoother browser session.
+### Saving your maps
+The application stores your maps inside your browser's local storage. You do not need to click a save button to preserve your progress during a session. If you want to export your map to share with others, use the Export button in the top menu. This creates a file on your computer that you can import later using the Load button.
 
----
+## 🔍 Troubleshooting common issues
 
-## How to Use It
+Most users experience smooth operation. If you encounter difficulties, check these common items:
 
-1. Start a new map on the canvas.
-2. Add and arrange process steps using drag and drop.
-3. Review the live KPI values as the layout changes.
-4. Save progress in the browser for later sessions.
-5. Export the model to JSON when you want to reuse or transfer it.
-6. Use the print or PDF option when you need a shareable review copy.
+* Browser updates: Ensure your browser is up to date. Outdated versions may fail to render the canvas correctly.
+* Browser storage: The application requires permission to save files to your browser cache. If your browser settings block local storage, the application cannot save your maps. Check your privacy settings to ensure your browser allows local site data.
+* File access: You must extract the ZIP file before opening the index.html file. If you run the file from inside the compressed zip folder, the browser restricts the application scripts. Always extract the folder first.
+* Screen resolution: The editor functions best on screens with at least 1280 pixels of horizontal width. If the interface appears crowded, try zooming out in your browser by pressing the Control and minus keys.
 
-Typical workflow:
-- Build the current-state map
-- Inspect flow and timing metrics
-- Adjust the process design
-- Export the finalized version for documentation
+## 📝 Managing your workspace
 
----
+You can manage multiple projects at once. The application allows you to switch between active maps using the project tabs at the top of the screen. When you rename a project, the interface remembers the label for your next session.
 
-## Configuration
+If you decide to clear your history, use the Reset Workspace option in the settings menu. This action removes all local maps stored in your browser. Use this feature with caution, as it deletes all unsaved changes permanently.
 
-Most preferences stay in the browser and are retained through localStorage. If the project offers configurable behavior, it is generally controlled inside the app or in the main script files.
+## 📈 Improving performance
 
-Example structure:
-- Canvas and process data: browser localStorage
-- Export behavior: within the app controls
-- Runtime logic: JavaScript source files
+The simulator handles large maps with many processes. If your map grows very large, you might notice a delay when moving multiple items. Use the zoom tool to focus on specific sections of the flow. You can also hide the sidebars to gain more room on the screen. 
 
----
+The software generates calculations based on standard Lean Six Sigma formulas. If your inputs result in negative lead times, the system highlights the incorrect fields in red. Verify your input units to ensure accuracy. Input times using minutes or hours consistently throughout the map to get correct final reports.
 
-## Requirements
-
-- A modern web browser
-- HTML5 and JavaScript support
-- Enough browser storage for saved map data
-- Optional local file hosting if you prefer not to open files directly
-
----
-
-## FAQ
-
-### How do I save my work?
-The app keeps data locally in the browser through localStorage, so your session can carry over between visits on the same device and browser.
-
-### Can I export my map?
-Yes. The project includes JSON export as well as print/PDF export options.
-
-### Does it need a server?
-No. The project is designed to run without a server.
-
-### Where are settings kept?
-Most application state lives in the browser. Any extra settings would be handled inside the app or the source files.
-
-### What should I do if the page does not load correctly?
-Make sure you are using a supported browser and that the project files were opened from the correct entry point. If necessary, serve the folder through a local static web server.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: lean, six sigma, value stream mapping, simulator, process improvement, productivity, windows software
